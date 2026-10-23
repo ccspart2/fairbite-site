@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ccspart2.github.io/fairbite-site/sitemap.xml
