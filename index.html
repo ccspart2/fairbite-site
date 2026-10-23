@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FairBite — split the bill, fair to the cent</title>
+  <meta name="description" content="FairBite is an Android app that splits a restaurant bill fairly. Put each item on the right plates, and everyone gets their total, with tax and tip, adding up exactly to the cent. No account, no ads, works offline.">
+  <meta name="theme-color" content="#13131A">
+  <meta name="color-scheme" content="dark">
+  <!-- SITE URL: absolute URLs below use the base https://ccspart2.github.io/fairbite-site/ — see README to change it. -->
+  <link rel="canonical" href="https://ccspart2.github.io/fairbite-site/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="fonts/plus-jakarta-sans.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/site.css">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FairBite">
+  <meta property="og:title" content="FairBite — split the bill, fair to the cent">
+  <meta property="og:description" content="Put each item on the right plates. Everyone gets their total, with tax and tip, adding up exactly to the cent. No account, no ads, works offline.">
+  <meta property="og:url" content="https://ccspart2.github.io/fairbite-site/">
+  <meta property="og:image" content="https://ccspart2.github.io/fairbite-site/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="FairBite: four coloured plate rings around a table, with the words Split the bill, fair to the cent.">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FairBite — split the bill, fair to the cent">
+  <meta name="twitter:description" content="Put each item on the right plates. Everyone gets their total, with tax and tip, adding up exactly to the cent.">
+  <meta name="twitter:image" content="https://ccspart2.github.io/fairbite-site/assets/img/og-image.png">
+  <meta name="twitter:image:alt" content="FairBite: four coloured plate rings around a table, with the words Split the bill, fair to the cent.">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./" aria-current="page">
+        <img src="assets/img/logo.svg" alt="" width="36" height="36">
+        FairBite
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="support/">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div>
+          <h1 id="hero-title">Split the bill. <span class="accent">Fair to the cent.</span></h1>
+          <p class="lead">Everyone at the table gets their number, and the reason behind it, so no one has to ask.</p>
+
+          <div class="store" id="get">
+            <!--
+              ============================================================
+              GOOGLE PLAY BADGE — the one place to switch on at launch.
+              1. Delete the "coming soon" <p> element just below.
+              2. Uncomment the <a class="store-badge"> block underneath it.
+              3. Put the official badge file at assets/img/google-play-badge.png
+                 (download it from Google's badge generator; do not redraw it).
+              4. In the footer of every page, uncomment the Google Play
+                 trademark line.
+              See README.md → "Switching the Google Play badge on".
+              ============================================================
+            -->
+            <p class="coming-soon" role="note">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="#3EDFB0" stroke-width="3"/></svg>
+              <span>
+                <span class="small">Coming soon</span>
+                <span class="big">on Google Play</span>
+              </span>
+            </p>
+            <!--
+            <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.fairbite.app">
+              <img src="assets/img/google-play-badge.png" alt="Get it on Google Play" width="215" height="64">
+            </a>
+            -->
+            <p class="store-note">For Android phones, in the US, Puerto Rico and Latin America.</p>
+          </div>
+
+          <ul class="hero-facts">
+            <li>One free split</li>
+            <li>No account</li>
+            <li>No ads</li>
+            <li>Works offline</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-rings" aria-hidden="true">
+            <svg viewBox="-12 -12 624 424" preserveAspectRatio="xMidYMid meet" overflow="visible">
+              <g fill="none" stroke-width="7">
+                <ellipse cx="300" cy="200" rx="290" ry="190" stroke="#444558" stroke-width="1.5"/>
+                <circle cx="300" cy="385" r="13" stroke="#F8857B"/>
+                <circle cx="104" cy="340" r="13" stroke="#FBBA6E"/>
+                <circle cx="104" cy="60" r="13" stroke="#3EDFB0"/>
+                <circle cx="300" cy="15" r="13" stroke="#42D8F0"/>
+                <circle cx="496" cy="60" r="13" stroke="#81A4F6"/>
+                <circle cx="496" cy="340" r="13" stroke="#F77DBC"/>
+              </g>
+            </svg>
+          </div>
+          <div class="device">
+            <img src="assets/screenshots/canvas-800.webp"
+                 srcset="assets/screenshots/canvas-800.webp 800w, assets/screenshots/canvas.webp 1600w"
+                 sizes="(min-width: 900px) 600px, 92vw"
+                 width="1600" height="701"
+                 alt="FairBite's canvas in landscape: four coloured plates around a table, labelled You, 2, 3 and 4 with their running totals, and $7.00 remaining with a Split the rest button in the centre.">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== How it works ===== -->
+    <section class="section" id="how-it-works" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="section-intro">
+          <span class="eyebrow">How it works</span>
+          <h2 id="how-title">Everyone is a plate around the table</h2>
+          <p class="lead">Each person gets a coloured, numbered plate. Plate 1 is you. Put each item on the plates that had it, and the totals work themselves out.</p>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <span class="ring" aria-hidden="true">1</span>
+            <h3>Enter the bill</h3>
+            <p>Choose how many people are at the table, then type the subtotal and the tax &amp; fees from the receipt.</p>
+          </li>
+          <li class="step">
+            <span class="ring" aria-hidden="true">2</span>
+            <h3>Assign items</h3>
+            <p>Type an item’s price and drag it to a plate. Or tap the centre, then every plate that shared it. Shared items split equally.</p>
+          </li>
+          <li class="step">
+            <span class="ring" aria-hidden="true">3</span>
+            <h3>Pick a tip</h3>
+            <p>Each total includes its share of tax and tip. Change the tip and every total updates, and still adds up.</p>
+          </li>
+          <li class="step">
+            <span class="ring" aria-hidden="true">4</span>
+            <h3>Share and finish</h3>
+            <p>Tap a plate to see its tally and send it as text. Finish saves the bill to your history.</p>
+          </li>
+        </ol>
+        <p class="fine">Just splitting evenly? After you enter the bill, FairBite offers <strong>Split bill equally</strong> with each person’s amount.</p>
+      </div>
+    </section>
+
+    <!-- ===== Features ===== -->
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="wrap">
+        <div class="section-intro">
+          <span class="eyebrow">Why FairBite</span>
+          <h2 id="features-title">A split that explains itself</h2>
+          <p class="lead">A bare number starts the “hang on, that doesn’t add up” conversation. FairBite shows what every total is made of.</p>
+        </div>
+        <div class="features">
+          <article class="feature">
+            <h3>Fair to the cent</h3>
+            <p>Tax, fees and tip are shared in proportion to what each person ordered. Every plate adds up, and all the plates add up to the bill, exactly.</p>
+          </article>
+          <article class="feature">
+            <h3>The reason, not just the number</h3>
+            <p>Every total breaks down into items, fees and tip, so anyone can check it at the table.</p>
+          </article>
+          <article class="feature">
+            <h3>No account, no ads, no tracking</h3>
+            <p>Nothing to sign up for. No ads, no analytics. Your bills stay on your phone.</p>
+          </article>
+          <article class="feature">
+            <h3>Works offline</h3>
+            <p>Splitting a bill never needs the internet, so bad restaurant Wi-Fi doesn’t matter. Only buying or restoring the unlock goes online.</p>
+          </article>
+          <article class="feature">
+            <h3>No dragging required</h3>
+            <p>Every action works with taps alone, and every control is labelled for TalkBack. Plates show their number, not just their colour.</p>
+          </article>
+          <article class="feature">
+            <h3>History when you need it</h3>
+            <p>Finished bills are saved in Bill history, with every plate’s breakdown. Name them, rename them or delete them.</p>
+          </article>
+        </div>
+
+        <div class="tally">
+          <div>
+            <h3>Check the arithmetic</h3>
+            <p>A pizza night for four: $96.50 of food and drinks, $8.56 tax &amp; fees, and an 18% tip. Every row adds up, and so does every column.</p>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <caption class="visually-hidden">Example split for four plates</caption>
+              <thead>
+                <tr><th scope="col">Plate</th><th scope="col">Items</th><th scope="col">Fees</th><th scope="col">Tip</th><th scope="col">Total</th></tr>
+              </thead>
+              <tbody>
+                <tr><td><span class="who p1">You</span></td><td>$27.25</td><td>$2.42</td><td>$4.90</td><td>$34.57</td></tr>
+                <tr><td><span class="who p2">Plate 2</span></td><td>$28.75</td><td>$2.55</td><td>$5.18</td><td>$36.48</td></tr>
+                <tr><td><span class="who p3">Plate 3</span></td><td>$22.50</td><td>$1.99</td><td>$4.05</td><td>$28.54</td></tr>
+                <tr><td><span class="who p4">Plate 4</span></td><td>$18.00</td><td>$1.60</td><td>$3.24</td><td>$22.84</td></tr>
+              </tbody>
+              <tfoot>
+                <tr><td>Bill</td><td>$96.50</td><td>$8.56</td><td>$17.37</td><td>$122.43</td></tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Screenshots ===== -->
+    <section class="section" id="screenshots" aria-labelledby="shots-title">
+      <div class="wrap">
+        <div class="section-intro">
+          <span class="eyebrow">Screenshots</span>
+          <h2 id="shots-title">Made for the phone on its side</h2>
+          <p class="lead">FairBite works in landscape, so the whole table fits on one screen.</p>
+        </div>
+        <ul class="shots">
+          <li>
+            <figure>
+              <div class="device">
+                <img src="assets/screenshots/setup-800.webp"
+                     srcset="assets/screenshots/setup-800.webp 800w, assets/screenshots/setup.webp 1600w"
+                     sizes="(min-width: 760px) 540px, 92vw" width="1600" height="701" loading="lazy"
+                     alt="Bill setup: a $105.06 bill total in the centre of four plates, with the choice to split the bill equally at $26.27 each before tip, or enter bill items.">
+              </div>
+              <figcaption><strong>Split it your way</strong>Split the bill equally in one tap, or enter the items plate by plate.</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <div class="device">
+                <img src="assets/screenshots/canvas-share-800.webp"
+                     srcset="assets/screenshots/canvas-share-800.webp 800w, assets/screenshots/canvas-share.webp 1600w"
+                     sizes="(min-width: 760px) 540px, 92vw" width="1600" height="701" loading="lazy"
+                     alt="Assigning a shared item: $7.00 is selected for plates 2 and 4, shown as 2 plates, $3.50 each, under the prompt Who shares this?">
+              </div>
+              <figcaption><strong>Share an item</strong>Tap the plates that had it. FairBite shows each share before you confirm.</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <div class="device">
+                <img src="assets/screenshots/summary-800.webp"
+                     srcset="assets/screenshots/summary-800.webp 800w, assets/screenshots/summary.webp 1600w"
+                     sizes="(min-width: 760px) 540px, 92vw" width="1600" height="701" loading="lazy"
+                     alt="Summary with an 18% tip: each plate's total with its items, fees and tip, adding up to a $122.43 bill total.">
+              </div>
+              <figcaption><strong>Every total, explained</strong>Pick a tip and each plate shows items + fees + tip.</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <div class="device">
+                <img src="assets/screenshots/history-800.webp"
+                     srcset="assets/screenshots/history-800.webp 800w, assets/screenshots/history.webp 1600w"
+                     sizes="(min-width: 760px) 540px, 92vw" width="1600" height="701" loading="lazy"
+                     alt="Bill history: a saved bill named Pizza night, $122.43 for 4 plates, with its full per-plate breakdown.">
+              </div>
+              <figcaption><strong>Bill history</strong>Finished bills stay on your phone, with every breakdown.</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <div class="device">
+                <img src="assets/screenshots/home-800.webp"
+                     srcset="assets/screenshots/home-800.webp 800w, assets/screenshots/home.webp 1600w"
+                     sizes="(min-width: 760px) 540px, 92vw" width="1600" height="701" loading="lazy"
+                     alt="FairBite's home screen: four coloured plate rings beside the FairBite name, a Split new bill button, and links to Settings, Bill history and How it works.">
+              </div>
+              <figcaption><strong>Start in one tap</strong>New here? <em>How it works</em> plays a short demo.</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <div class="device">
+                <img src="assets/screenshots/paywall-800.webp"
+                     srcset="assets/screenshots/paywall-800.webp 800w, assets/screenshots/paywall.webp 1600w"
+                     sizes="(min-width: 760px) 540px, 92vw" width="1600" height="701" loading="lazy"
+                     alt="The unlock screen: Unlock unlimited splits, $4.99, one-time purchase, no subscription, with buttons to unlock, restore a purchase, or choose Not now.">
+              </div>
+              <figcaption><strong>One price, once</strong>After your free split, unlock every split after it.</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Pricing ===== -->
+    <section class="section" id="pricing" aria-labelledby="pricing-title">
+      <div class="wrap pricing-grid">
+        <div>
+          <span class="eyebrow">Pricing</span>
+          <h2 id="pricing-title">Try a whole split free. Then pay once.</h2>
+          <p class="lead">No subscription. No ads paying for it instead.</p>
+          <ul class="checklist">
+            <li>Your first complete split is free, start to finish.</li>
+            <li>One purchase unlocks unlimited splits for good.</li>
+            <li>Bill history, Settings and the How it works demo are always free, and a bill in progress is never blocked.</li>
+            <li>Restore your purchase on a new phone with the same Google account.</li>
+          </ul>
+        </div>
+        <div class="plans">
+          <div class="plan">
+            <h3>First split</h3>
+            <span class="price">Free</span>
+            <p>The whole app, for one complete bill.</p>
+          </div>
+          <div class="plan featured">
+            <h3>Unlimited splits</h3>
+            <span class="price">$4.99</span>
+            <p>One-time purchase. No subscription.</p>
+          </div>
+          <p class="fine" style="grid-column: 1 / -1; margin-top: 0;">Price in US dollars. Google Play shows the price in your local currency before you buy.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="privacy/">Privacy policy</a></li>
+          <li><a href="support/">Support</a></li>
+          <li><a href="mailto:ccspart2@gmail.com">ccspart2@gmail.com</a></li>
+        </ul>
+      </nav>
+      <p>© 2026 QuestForge. All rights reserved.</p>
+      <p class="legal">Set in Plus Jakarta Sans, used under the <a href="fonts/OFL.txt">SIL Open Font License 1.1</a>.</p>
+      <!-- GOOGLE PLAY: uncomment when the badge is switched on.
+      <p class="legal">Google Play and the Google Play logo are trademarks of Google LLC.</p>
+      -->
+    </div>
+  </footer>
+</body>
+</html>
